@@ -4,6 +4,10 @@ Class 3: Git, GitHub and artifact delivery. Class 4: Docker image delivery.
 
 This repository holds a small static website, its validator and the CI workflow that tests, builds and packages it.
 
+## Purpose
+It is used to practise a safe delivery flow: changes are made on a branch, reviewed in a pull request,
+checked by GitHub Actions, and only a validated site is packaged as a downloadable artifact.
+
 ## Local use
 Requires Python 3.11 or newer and Git. No pip install is needed.
 
